@@ -11,10 +11,10 @@ find_package(glfw3 REQUIRED)
 find_package(GLEW REQUIRED)
 
 # Add source files
-add_executable(OpenGLTemplate src/main.cpp)
+add_executable(${PROJECT_NAME} src/main.cpp)
 
 # Include directories
 include_directories(include)
 
 # Link OpenGL
-target_link_libraries(OpenGLTemplate OpenGL::GL glfw GLEW::GLEW)
+target_link_libraries(${PROJECT_NAME} OpenGL::GL glfw GLEW::GLEW)

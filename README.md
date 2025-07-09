@@ -31,4 +31,6 @@ make
 ./OpenGLTemplate
 ```
 
+> **Note:** If you want to rename your project, change the project name in the `project()` line at the top of `CMakeLists.txt`.
+
 > **Note:** Whenever you create a new source file (e.g., a new `.cpp` file in `src/`), you must also add it to the `add_executable` line in `CMakeLists.txt`. Otherwise, you may get linker errors for missing function implementations. 
